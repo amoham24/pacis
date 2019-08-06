@@ -1,0 +1,73 @@
+.navbar {
+  z-index: 1;
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  display: block;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover {
+  background-color: red;
+}
+
+/*centers,sizes,and puts space above the heading*/
+h1 {
+  font-size: 50px;
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+/*same concept but now for paragraphs*/
+p{
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+#bttn {
+  color: white;
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-family: serif;
+  padding: 12px 28px;
+  border-radius: 12px;
+  background-color: #555555;
+  transition-duration: 0.4s;
+
+}
+#bttn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#secret {
+  margin-top: 100px;
+  text-align: center;
+}
+
+/*space for nav bar*/
+body, html {
+  margin-top: 30px;
+  height: 100%;
+}
+
+footer {
+  margin-top: 80px;
+  width: 100%;
+  text-align: center;
+}
